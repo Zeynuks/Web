@@ -13,70 +13,185 @@
 </head>
 
   <body>
-  
   <header class="section-header">
-    <div class="header__menu">
-      <img class="header__logo" src="images/logo.svg" alt="Logo">
-      <nav class="header__links">
-        <li class="link"><a href="#" class="header__link">HOME</a></li>
-        <li class="link"><a href="#" class="header__link">CATEGORY</a></li>
-        <li class="link"><a href="#" class="header__link">ABOUT</a></li>
-        <li class="link"><a href="#" class="header__link">CONTACT</a></li>
+    <div class="section-menu">
+      <a href="#" class="header__logo"><img src="../images/logo.svg" alt="brand" /></a>
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item"><a href="#" class="navigation__link header__link_color">HOME</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link header__link_color">CATEGORY</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link header__link_color">ABOUT</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link header__link_color">CONTACT</a></li>
+        </ul>
       </nav>
     </div>
-    <div class="header__block">
-      <h1 class="header__title title">Let's do it together.</h1>
-      <h2 class="header__subtitle subtitle">We travel the world in search of stories. Come along for the ride.</h2>
-      <button class="header__button">View Latest Posts</button>
-    </div>
+    <h1 class="heading__title">Let's do it together.</h1>
+    <h2 class="heading__subtitle">We travel the world in search of stories. Come along for the ride.</h2>
+    <button type="button" class="heading__button">View Latest Posts</button>
   </header>
-
   <div class="section-menu-themes">
     <nav class="menu-themes__links">
-      <li class="link"></li><a href="#" class="menu-themes__link">Nature</a></li>
-      <li class="link"></li><a href="#" class="menu-themes__link">Photography</a></li>
-      <li class="link"></li><a href="#" class="menu-themes__link">Relaxation</a></li>
-      <li class="link"></li><a href="#" class="menu-themes__link">Vacation</a></li>
-      <li class="link"></li><a href="#" class="menu-themes__link">Travel</a></li>
-      <li class="link"></li><a href="#" class="menu-themes__link">Adventure</a></li>
+      <ul class="menu-themes__list">
+        <li class="menu-themes__item"><a href="#" class="menu-themes__link">Nature</a></li>
+        <li class="menu-themes__item"><a href="#" class="menu-themes__link">Photography</a></li>
+        <li class="menu-themes__item"><a href="#" class="menu-themes__link">Relaxation</a></li>
+        <li class="menu-themes__item"><a href="#" class="menu-themes__link">Vacation</a></li>
+        <li class="menu-themes__item"><a href="#" class="menu-themes__link">Travel</a></li>
+        <li class="menu-themes__item"><a href="#" class="menu-themes__link">Adventure</a></li>
+      </ul>
     </nav>
   </div>
 
   <main class="section-main">
-    <div class="featured">
+    <div class="featured__posts">
       <h3 class="featured__title">Featured Posts</h3>
-      <hr class="divisor">        
-      <div class="featured-posts">
-        <div class="featured-post the-road-ahead__background_image">
-          <div class="featured-post__flag"></div>
-          <div class="featured-post__block">
-            <h4 class="featured-post__title title">The Road Ahead</h4>
-            <h5 class="featured-post__description subtitle">The road ahead might be paved - it might not be.</h5>            
+      <hr class="posts__divisor">
+      <div class="featured__block">
+        <div class="featured-post post-background__the-road-ahead">
+          <a href="#" class="featured-post__discription">
+            <h4 class="featured-post__title">The Road Ahead</h4>
+            <h5 class="featured-post__subtitle">The road ahead might be paved - it might not be.</h5>
+          </a>
+          <div class="featured-post__about">
+            <a href="#" class="featured-post__author">
+              <img class="featured-post__author-logo" src="../images/authors/mat_vogels_logo.png" alt="author__logo"/>
+              <h6 class="featured-post__author-name">Mat Vogels</h6>
+            </a>
+            <h6 class="featured-post__date">September 25, 2015</h6>
           </div>
-          <div class="featured-post__info">
-            <img class="featured-post__logo" src="images/mat_vogels_logo.png" alt="Author logo">
-            <h6 class="featured-post__author">Mat Vogels</h6>
-            <h6 class="the-road-ahead__date">September 25, 2015</h6> 
+        </div>
+        <div class="featured-post post-background__from-top-down">
+          <a href="#" class="post-theme">Adventure</a>
+          <a href="#" class="featured-post__discription">
+            <h4 class="featured-post__title">From Top Down</h4>
+            <h5 class="featured-post__subtitle">Once a year, go someplace you’ve never been before.</h5>
+          </a>
+          <div class="featured-post__about">
+            <a href="#" class="featured-post__author">
+              <img class="featured-post__author-logo" src="../images/authors/william_wong_logo.png" alt="author__logo"/>
+              <h6 class="featured-post__author-name">William Wong</h6>
+            </a>
+            <h6 class="featured-post__date">September 25, 2015</h6>
           </div>
-          <div class="featured-post from-top-down__background_image">
-            <div class="featured-post__flag"></div>
-            <div class="featured-post__block">
-              <h4 class="featured-post__title title">From Top Down</h4>
-              <h5 class="featured-post__description subtitle">Once a year, go someplace you’ve never been before.</h5>            
-            </div>
-            <div class="featured-post__info">
-              <img class="featured-post__logo" src="images/william_wong_logo.png" alt="Author logo">
-              <h6 class="featured-post__author">William Wong</h6>
-              <h6 class="featured-post__date">September 25, 2015</h6> 
-            </div>
         </div>
       </div>
     </div>
+    <div class="most-recent__posts">
+      <h3 class="most-recent__title">Most Recent</h3>
+      <hr class="posts__divisor">
+      <div class="most-recent__block">
+
+        <div class="most-recent-post">
+          <img class="most-recent-post__image" src="../images/posts/balloons.png" alt="author__logo"/>
+          <div class="most-recent-post__discription">
+            <h4 class="most-recent-post__title">Still Standing Tall</h4>
+            <h5 class="most-recent-post__subtitle">Life begins at the end of your comfort zone.</h5>
+          </div>
+          <hr class="post__divisor">
+          <div class="most-recent-post__about">
+            <a href="#" class="most-recent-post__author">
+              <img class="most-recent-post__author-logo" src="../images/authors/william_wong_logo.png" alt="author__logo"/>
+              <h6 class="most-recent-post__author-name">William Wong</h6>
+            </a>
+            <h6 class="most-recent-post__date">9/25/2015</h6>
+          </div>
+        </div>
+
+        <div class="most-recent-post">
+          <img class="most-recent-post__image" src="../images/posts/red_bridge.png" alt="author__logo"/>
+          <div class="most-recent-post__discription">
+            <h4 class="most-recent-post__title">Sunny Side Up</h4>
+            <h5 class="most-recent-post__subtitle">No place is ever as bad as they tell you it’s going to be.</h5>
+          </div>
+          <hr class="post__divisor">
+          <div class="most-recent-post__about">
+            <a href="#" class="most-recent-post__author">
+              <img class="most-recent-post__author-logo" src="../images/authors/mat_vogels_logo.png" alt="author__logo"/>
+              <h6 class="most-recent-post__author-name">Mat Vogels</h6>
+            </a>
+            <h6 class="most-recent-post__date">9/25/2015</h6>
+          </div>
+        </div>
+
+        <div class="most-recent-post">
+          <img class="most-recent-post__image" src="../images/posts/lake.png" alt="author__logo"/>
+          <div class="most-recent-post__discription">
+            <h4 class="most-recent-post__title">Water Falls</h4>
+            <h5 class="most-recent-post__subtitle">We travel not to escape life, but for life not to escape us.</h5>
+          </div>
+          <hr class="post__divisor">
+          <div class="most-recent-post__about">
+            <a href="#" class="most-recent-post__author">
+              <img class="most-recent-post__author-logo" src="../images/authors/mat_vogels_logo.png" alt="author__logo"/>
+              <h6 class="most-recent-post__author-name">Mat Vogels</h6>
+            </a>
+            <h6 class="most-recent-post__date">9/25/2015</h6>
+          </div>
+        </div>
+
+        <div class="most-recent-post">
+          <img class="most-recent-post__image" src="../images/posts/sea_waves.png" alt="author__logo"/>
+          <div class="most-recent-post__discription">
+            <h4 class="most-recent-post__title">Through the Mist</h4>
+            <h5 class="most-recent-post__subtitle">Travel makes you see what a tiny place you occupy in the world.</h5>
+          </div>
+          <hr class="post__divisor">
+          <div class="most-recent-post__about">
+            <a href="#" class="most-recent-post__author">
+              <img class="most-recent-post__author-logo" src="../images/authors/william_wong_logo.png" alt="author__logo"/>
+              <h6 class="most-recent-post__author-name">William Wong</h6>
+            </a>
+            <h6 class="most-recent-post__date">9/25/2015</h6>
+          </div>
+        </div>
+
+        <div class="most-recent-post">
+          <img class="most-recent-post__image" src="../images/posts/gondola_lift.png" alt="author__logo"/>
+          <div class="most-recent-post__discription">
+            <h4 class="most-recent-post__title">Awaken Early</h4>
+            <h5 class="most-recent-post__subtitle">Not all those who wander are lost.</h5>
+          </div>
+          <hr class="post__divisor">
+          <div class="most-recent-post__about">
+            <a href="#" class="most-recent-post__author">
+              <img class="most-recent-post__author-logo" src="../images/authors/mat_vogels_logo.png" alt="author__logo"/>
+              <h6 class="most-recent-post__author-name">Mat Vogels</h6>
+            </a>
+            <h6 class="most-recent-post__date">9/25/2015</h6>
+          </div>
+        </div>
+
+        <div class="most-recent-post">
+          <img class="most-recent-post__image" src="../images/posts/waterfall.png" alt="author__logo"/>
+          <div class="most-recent-post__discription">
+            <h4 class="most-recent-post__title">Try it Always</h4>
+            <h5 class="most-recent-post__subtitle">The world is a book, and those who do not travel read only one page.</h5>
+          </div>
+          <hr class="post__divisor">
+          <div class="most-recent-post__about">
+            <a href="#" class="most-recent-post__author">
+              <img class="most-recent-post__author-logo" src="../images/authors/mat_vogels_logo.png" alt="author__logo"/>
+              <h6 class="most-recent-post__author-name">Mat Vogels</h6>
+            </a>
+            <h6 class="most-recent-post__date">9/25/2015</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="section-footer">
+      <div class="section-menu">
+        <a href="#" class="header__logo"><img src="../images/logo.svg" alt="brand" /></a>
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item"><a href="#" class="navigation__link header__link_color">HOME</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link header__link_color">CATEGORY</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link header__link_color">ABOUT</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link header__link_color">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
   </main>
-
-  <div>
-
-  </div>
 
 </body>
 
